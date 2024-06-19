@@ -4,6 +4,8 @@
 
 ### Linux
 
+I use Hyprland, a Wayland based Tiling Window Manager, I think if you use Xorg this process should be easier, you can check [ThePrimeagen's layout](https://github.com/ThePrimeagen/keyboards/tree/master/ubuntu) for how to do it in Ubuntu.
+
 1. Copy the layout file to `/usr/share/X11/xkb/symbols/`
 
 ```bash
@@ -37,7 +39,7 @@ sudo nvim /usr/share/X11/xkb/rules/evdev.xml
     </layout>
 ```
 
-3 Add the layout in your hyprland config
+3. Add the layout in your hyprland config
 
 ```
 input {
@@ -55,3 +57,13 @@ input {
 ```
 
 **Note:** The `grp:alt_space_toggle` option is to switch between the layouts with `Alt + Space`.
+
+4. Reboot
+
+This should be it 
+
+5. Resources
+
+- [ThePrimeagen's layout](https://github.com/ThePrimeagen/keyboards/tree/master/ubuntu)
+- [staticf0x's blog post](https://staticf0x.github.io/2021/custom-keyboard-layout-in-x11-and-wayland.html)
+- [stingok's blog post](https://blog.stigok.com/2020/10/27/from-x11-xmodmap-to-wayland-xkb-custom-keyboard-layout.html)
