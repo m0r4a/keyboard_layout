@@ -3,7 +3,7 @@
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "moras-programmer-kb" {
 
-    name[Group1]= "English (Mora version)";
+    name[Group1]= "English (Mora)";
 
 		// Pressed,	 Shift,		RAlt,	Shift & RAlt
 
@@ -45,7 +45,7 @@ xkb_symbols "moras-programmer-kb" {
     key <AC09>	{[	 l,	 L		]};
     key <AC10>	{[ semicolon,	 colon		]};
     key <AC11>	{[ apostrophe,	 quotedbl	]};
-    key <BKSL>	{[ backslash,	 bar		]};
+    key <BKSL>	{[ q,	 bar		]};
 
     key <AB01>	{[	 z,	 Z		]};
     key <AB02>	{[	 x,	 X		]};
