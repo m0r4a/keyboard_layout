@@ -7,7 +7,7 @@
 1. Copy the layout file to `/usr/share/X11/xkb/symbols/`
 
 ```bash
-sudo cp mora /usr/share/X11/xkb/symbols/
+sudo cp moras-programmer-kb /usr/share/X11/xkb/symbols/
 ```
 
 2. Add the layout in `/usr/share/X11/xkb/rules/evdev.xml`
