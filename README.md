@@ -12,7 +12,11 @@ sudo cp moras-programmer-kb /usr/share/X11/xkb/symbols/
 
 2. Add the layout in `/usr/share/X11/xkb/rules/evdev.xml`
 
-(Below <layoutList>)
+```bash
+sudo nvim /usr/share/X11/xkb/rules/evdev.xml
+```
+
+(Below `<layoutList>`)
 
 ```xml
     <layout>
