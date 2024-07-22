@@ -9,7 +9,7 @@ I use Hyprland, a Wayland based Tiling Window Manager, I think if you use Xorg t
 1. Copy the layout file to `/usr/share/X11/xkb/symbols/`
 
 ```bash
-sudo cp moras-programmer-kb /usr/share/X11/xkb/symbols/
+sudo cp linux/moras-programmer-kb /usr/share/X11/xkb/symbols/
 ```
 
 2. Add the layout in `/usr/share/X11/xkb/rules/evdev.xml`
