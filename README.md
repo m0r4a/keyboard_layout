@@ -2,17 +2,57 @@
 
 ## Layout
 
+I used [this](http://www.keyboard-layout-editor.com) website with the 60% preset to create the layout images, you can paste the "Raw Data" in the website to see the layout.
+
 ### Base Layer
 
-png
+![Base Layer](./layers/base_layer.png)
 
-![Base Layer](./keyboard-layout.png)
+<details>
 
-### Base layer 2 
+  <summary>Raw Data</summary>
 
-svg
+  ```json
+[{a:7},"`","!","@","#","$","%","^","&","*","(",")","-","=",{w:2},"Backspace"],
+[{w:1.5},"Tab","q","w","e","r","t","y","u","i","o","p","[","]",{w:1.5},""],
+[{w:1.75},"Caps Lock","a","s","d","f","g","h","j","k","l",":","\"",{w:2.25},"Enter"],
+[{w:2.25},"Shift","z","x","c","v","b","n","m",",",".","/",{w:2.75},"Shift"],
+[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{w:6.25},"",{w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"]
+  ```
+</details>
 
-![Base Layer 2](./keyboard-layout.svg)
+### Shift Layer
+
+![Shift Layer](./layers/shift_layer.png)
+
+<details>
+
+  <summary> Raw data</summary>
+
+  ```json
+[{a:7},"~","1","2","3","4","5","6","7","8","9","0","_","+",{a:4,w:2},"Backspace"],
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P",{a:7},"{","}",{w:1.5},"|"],
+[{a:4,w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",{a:7},";","'",{a:4,w:2.25},"Enter"],
+[{w:2.25},"Shift","Z","X","C","V","B","N","M",{a:7},"<",">","?",{a:4,w:2.75},"Shift"],
+[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"]
+  ```
+</details>
+
+
+### RAlt Layer
+
+![RAlt Layer](./layers/ralt_layer.png)
+
+<details>
+  <summary>Raw Data</summary>
+
+  ```json
+[{a:7},"+","¹","@","³","¼","½","¬","{","[","]","}","\\","¸",{a:4,w:2},"Backspace"],
+[{w:1.5},"Tab",{a:7},"@","ſ","€","¶","ŧ","←","↓","→","ø","þ","\"","~",{w:1.5},"|"],
+[{a:4,w:1.75},"Caps Lock",{a:7},"æ","ß","ð","đ","ŋ","ħ","̉̉","ĸ","ł","'","'",{a:4,w:2.25},"Enter"],
+[{w:2.25},"Shift",{a:7},"«","»","¢","„","“","ñ","µ","•","·","̣",{a:4,w:2.75},"Shift"],
+[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"Alt",{w:1.25},"Win",{w:1.25},"Menu",{w:1.25},"Ctrl"]
+```
 
 ## Add the layout to your system
 
