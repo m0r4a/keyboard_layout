@@ -1,5 +1,19 @@
 # This is my keyboard layout repo.
 
+## Layout
+
+### Base Layer
+
+png
+
+![Base Layer](./keyboard-layout.png)
+
+### Base layer 2 
+
+svg
+
+![Base Layer 2](./keyboard-layout.svg)
+
 ## Add the layout to your system
 
 ### Linux
