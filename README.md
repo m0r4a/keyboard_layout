@@ -117,7 +117,7 @@ input {
 
 This should be it 
 
-5. Resources
+#### Resources
 
 - [ThePrimeagen's layout](https://github.com/ThePrimeagen/keyboards/tree/master/ubuntu)
 - [staticf0x's blog post](https://staticf0x.github.io/2021/custom-keyboard-layout-in-x11-and-wayland.html)
